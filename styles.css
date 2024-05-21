@@ -124,11 +124,12 @@
 
 .quote-container{
     background-color: #E5E7EB;
-    height: 400px;
+    height: auto;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
     .quote{
         text-align: left;
@@ -136,6 +137,7 @@
         font-size: 32px;
         width: 40%;
         font-style: italic;
+        margin-bottom: auto;
     }
 
     .author{
