@@ -119,6 +119,7 @@
 .box-description{
     flex: 1;
     text-align: center;
+    padding-top: 8px;
 }
 
 .quote-container{
