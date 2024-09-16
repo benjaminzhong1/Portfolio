@@ -106,6 +106,7 @@ a {
         width: 75%;
         min-width: 960px;
         flex-wrap: nowrap;
+        font-size: large;
     }
     .menu-container {
         display: flex;
