@@ -87,15 +87,13 @@ a {
     }
     .item {
         flex: 1;
-        /* width: auto; */
+        width: auto;
         display: block;
-        /* border: 1px green dashed; */
         white-space: nowrap;
     }
     .toggle {
         display: none;
     }
     .menu{
-        /* border: 1px green dashed; */
     }
 }
