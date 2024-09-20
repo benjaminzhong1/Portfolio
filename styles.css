@@ -34,7 +34,7 @@ a {
 }
 
 .item a:hover {
-    color: hotpink;
+    color: #888888;
 }
 
 .blurb-container {
@@ -56,6 +56,45 @@ a {
     text-align: center;
     font-size: small;
 }
+
+.resume-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 1px green dashed; */
+    align-items: center;
+}
+
+.resume-123 {
+    width: 100%;
+    max-width: 1000px;  /* Adjust to your layout */
+    margin: 0 auto;
+    border: 2px solid #333333;  /* Border around the PDF */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Optional: Add a shadow */
+    padding: 10px;  /* Space between the border and the page */
+    background-color: white;  /* Make sure the background of the PDF is white */
+}
+
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 30%;
+    max-width: fit-content;
+}
+
+.download-button:hover {
+    background-color: #003d80;
+}
+
+
 /*Mobile Menu*/
 .menu {
     display: flex;
@@ -88,6 +127,15 @@ a {
     width: 100%;
     height: auto;
 }
+
+/* .resume-123 {
+    max-width: 95%;
+    padding: 5px;
+}
+
+.download-button {
+    width: 80%;
+} */
 
 /*Tablet Menu*/
 @media all and (min-width: 700px) {
