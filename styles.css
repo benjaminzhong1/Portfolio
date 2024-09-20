@@ -150,6 +150,10 @@ a {
     .menu {
         /* border: 1px dashed green; */
     }
+
+    .resume-123 {
+        max-width: 95%;
+    }
 }
 
 /**/
@@ -202,5 +206,15 @@ a {
         font-size: 20px;
         text-align: center;
         padding: 10px 0px 10px 0px;
+    }
+    
+    .resume-123 {
+        width: 100%;
+        max-width: 1000px;  /* Adjust to your layout */
+        margin: 0 auto;
+        border: 2px solid #333333;  /* Border around the PDF */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Optional: Add a shadow */
+        padding: 10px;  /* Space between the border and the page */
+        background-color: white;  /* Make sure the background of the PDF is white */
     }
 }
