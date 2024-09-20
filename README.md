@@ -1,1 +1,1 @@
-# My website - [benjaminzhong1.com](https://benjaminzhong1.com)
+# [benjaminzhong1.com](https://benjaminzhong1.com)
